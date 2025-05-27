@@ -1,2 +1,3 @@
 # arm64-linux-games
-Guides for playing games natively on arm64/aarch64 Linux
+
+- [Terraria (Steam)](https://github.com/tranarchy/arm64-linux-games/blob/main/terraria/terraria.md)
