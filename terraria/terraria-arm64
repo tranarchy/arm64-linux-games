@@ -1,0 +1,9 @@
+#!/bin/sh
+
+TERRARIA_PATH=$HOME/.steam/steam/steamapps/common/Terraria
+
+cd $TERRARIA_PATH
+
+export LD_LIBRARY_PATH="lib64"
+
+mono Terraria.exe
