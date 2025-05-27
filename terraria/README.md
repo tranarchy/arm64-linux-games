@@ -1,5 +1,8 @@
 # Terreria
 
+![image](https://github.com/user-attachments/assets/5619ca63-6ab4-4ba9-bf80-bd2b0f7c0f43)
+
+
 ## How to setup
 
 Make sure you have the Steam version of Terraria installed
