@@ -6,6 +6,12 @@
 
 Both the setup and the launch script assumes that you have Fear & Hunger installed in the default Steam path, if you installed it somewhere else or if you use the GOG or itch.io version modify the `FEAR_AND_HUNGER_PATH` variable in the scripts
 
+Install npm
+
+```
+doas dnf install npm
+```
+
 Clone this repo
 
 ```
@@ -20,3 +26,7 @@ Run the setup script
 ```
 
 Now you can launch Fear & Hunger with `fear-and-hunger`
+
+# Termina
+
+Fear & Hunger 2: Termina should work as well this way, just modify the `FEAR_AND_HUNGER_PATH` variable in the scripts to point to the Termina path, also make a new launch script for termina
