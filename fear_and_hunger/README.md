@@ -9,7 +9,7 @@ Both the setup and the launch script assumes that you have Fear & Hunger install
 Install npm
 
 ```
-doas dnf install npm
+sudo dnf install npm
 ```
 
 Clone this repo
