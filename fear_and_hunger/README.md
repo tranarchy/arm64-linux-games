@@ -27,6 +27,6 @@ Run the setup script
 
 Now you can launch Fear & Hunger with `fear-and-hunger`
 
-# Termina
+## Termina
 
-Fear & Hunger 2: Termina should work as well this way, just modify the `FEAR_AND_HUNGER_PATH` variable in the scripts to point to the Termina path, also make a new launch script for termina
+Fear & Hunger 2: Termina should work as well this way, just modify the `FEAR_AND_HUNGER_PATH` variable in the scripts to point to the Termina path, also make a new launch script for Termina
