@@ -36,19 +36,31 @@ from source
 
 You will need older builds of `FNA3D` and `FAudio`
 
-For FNA3D
+FNA3D
 
 ```
-git checkout fcfab155c129fde38f9fab957345759bcaf96454 
+git clone --recurse-submodules https://github.com/FNA-XNA/FNA3D
+cd FNA3D
+git checkout fcfab155c129fde38f9fab957345759bcaf96454
+mkdir build/
+cd build/
+cmake ../
+make -j$(nproc)
 ```
 
-For FAudio
+FAudio
 
 ```
+git clone https://github.com/FNA-XNA/FAudio
+cd FAudio
 git checkout 2cc9baafc7bf9ae524a61e9f8250883500a9820a
+mkdir build/
+cd build/
+cmake ../
+make -j$(nproc)
 ```
 
-Clone this repos and copy the required `so` files to `lib64`
+Clone this repo and copy the required `so` files to `lib64`
 
 ```
 https://github.com/tranarchy/arm64-linux-games
@@ -60,6 +72,6 @@ cp /path/to/libFAudio.so lib64/libFAudio.so.0
 cd /path/to/libsteam_api.so lib64/libsteam_api.so
 ```
 
-Run `./setup`
+Run `./setup.sh`
 
 Now you can launch Terraria with `terraria-arm64`

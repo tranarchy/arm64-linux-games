@@ -1,0 +1,8 @@
+#!/bin/sh
+
+FEAR_AND_HUNGER_PATH="$HOME/.steam/steam/steamapps/common/Fear & Hunger"
+
+cd "$FEAR_AND_HUNGER_PATH"
+
+npm run start
+
